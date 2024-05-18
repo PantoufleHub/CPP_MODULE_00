@@ -40,7 +40,7 @@ void PhoneBook::DisplayAllShort() const
 
 void PhoneBook::Add(Contact contact)
 {
-	isEmpty = 1;
+	isEmpty = 0;
 	if (isFull())
 	{
 		RotateContacts();

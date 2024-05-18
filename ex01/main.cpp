@@ -1,9 +1,6 @@
 #include <iostream>
-#include <iostream>
-#include <cctype>
 #include "Colors.hpp"
 #include "PhoneBook.hpp"
-#include "Contact.hpp"
 
 void Search(PhoneBook *phoneBook)
 {
