@@ -39,7 +39,7 @@ all: $(NAME)
 
 $(NAME): $(SRCS)
 	@echo "Compiling $(NAME)..."
-	$(CC) $(ALLFLAGS) $(SRCS) -o $@
+	@$(CC) $(ALLFLAGS) $(SRCS) -o $@
 
 test:
 	@echo "Compiling test..."

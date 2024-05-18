@@ -2,14 +2,14 @@
 #include <iomanip>
 #include "Colors.hpp"
 
-// Contact::Contact() : _firstName("empty"), _lastName("empty"), _nickname("empty")
-// {}
+Contact::Contact() : isEmpty(1)
+{}
 
 Contact::Contact(std::string firstName, std::string lastName,
 	std::string nickname, std::string phoneNumber,
 	std::string darkestSecret) :
 	_firstName(firstName), _lastName(lastName), _nickname(nickname),
-	_phoneNumber(phoneNumber), _darkestSecret(darkestSecret)
+	_phoneNumber(phoneNumber), _darkestSecret(darkestSecret), isEmpty(0)
 {}
 
 Contact::~Contact()

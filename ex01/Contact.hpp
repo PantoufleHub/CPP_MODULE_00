@@ -14,7 +14,8 @@ private:
 	std::string cut_field(std::string str, int length) const;
 
 public:
-	// Contact();
+	int isEmpty;
+	Contact();
 	Contact(std::string firstName, std::string lastName,
 	std::string nickname, std::string phoneNumber,std::string darkestSecret);
 	~Contact();
